@@ -31,10 +31,10 @@
                             @foreach ($headings[0][0] as $index => $heading)
                                 <td>
                                     <select name="mapping[{{ $index }}]" class="form-control">
-                                        <option value="">Ignore</option>
-                                        <option value="0">Full Name</option>
-                                        <option value="1">Phone Number</option>
-                                        <option value="2">Email</option>
+                                        <option value="0">Ignore</option>
+                                        <option value="1">Full Name</option>
+                                        <option value="2">Phone Number</option>
+                                        <option value="3">Email</option>
                                     </select>
                                 </td>
                             @endforeach
